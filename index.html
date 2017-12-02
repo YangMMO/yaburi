@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>野菜部落官网 丨首页  一群二笔工作室</title>
+		<meta name="keyword" content="野菜部落,燃烧战车,卡通赛车,可亚大冒险,弹棋,鼹鼠大作战,空雅聊天室,图形聊天室,樱花弹棋,野菜,洋葱,饭团,空雅,yaburi,,,,,,,,,,,,,," />
+		<meta name="description" content="一群二笔工作室致力于还原绿色童年游戏，如：野菜部落，卡通赛车，燃烧战车等新浪iGame游戏大厅的小游戏"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery.js">
+			
+		</script>
+		
+	</head>
+	
+	
+	
+	<body ondragstart="return false;">
+		<!--nav-->
+		<div class="nav_bg">
+			<div class="nav">
+				<!--logo-->
+				<div class="logo">
+					<!--logo_img-->
+					<div class="logo_img">
+						<a href=""><img src="img/bi_logo.png"/></a>
+					</div>
+					<!--logo_font-->
+					<span id="">
+						<h1>一群二笔<br /></h1>
+						<h2>情怀说多了都是泪</h2>
+					<div class="">
+					<script type="text/javascript">
+						$(".logo").click(function(){
+							  window.open("http://yiqunerbi.com");
+						})
+					</script>
+					
+					</div>
+				</div>
+				
+				<!--nav-->
+				<ul class="nav_menu">
+					<li class="nav_active"><a href="http://yiqunerbi.com">首页</a></li>
+					<li><a href="About.html">关于我们</a></li>
+					<li><a href="games.html">游戏产品</a></li>
+					<li><a href="new.html">新闻动态</a></li>
+					<li><a href="join.html">加入我们</a></li>
+				</ul>
+			 
+			</div>
+		</div>
+		
+		<!--banner-->
+		<div class="banner_bg">
+			<div class="banner">
+				<a href="http://yiqunerbi.yaburigame/game.html"><img src="img/banner.png"/></a>
+				<a href="http://yiqunerbi.yaburigame/game.html"><img src="img/banner1.png"/></a>
+				<a href="http://yiqunerbi.yaburigame/game.html"><img src="img/banner.png"/></a>
+			</div>
+				
+			<script type="text/javascript">
+				
+				var n = $(".banner a").length
+				$(".banner").css("width",1920*n)
+				
+				var time = 0
+					
+					
+				var bannerstop = setInterval(function(){
+					
+					if(time<2){
+						time = time + 1
+						
+					}else{
+						time =0
+					}
+					
+					$(".banner").stop().animate({marginLeft:-960-1920*time},500)
+					$(".circle").find("li").children().css("background-color","white")
+					$(".circle").find("li").eq(time).children().css("background-color","#ededed")
+					
+					
+				},3000)
+				
+				$(".banner").mouseenter(function(){
+					clearInterval(bannerstop)
+				}).mouseleave(function(){
+					bannerstop = setInterval(function(){
+					
+					if(time<2){
+						time = time + 1
+						
+					}else{
+						time =0
+					}
+					
+					$(".banner").stop().animate({marginLeft:-960-1920*time},500)
+					
+					$(".circle").find("li").children().css("background-color","white")
+					$(".circle").find("li").eq(time).children().css("background-color","#ededed")
+					
+					},3000)
+				})
+				
+				
+				
+			</script>
+
+			
+		</div>
+	
+		
+		<!--content_game-->
+		<div class="content_bg">
+				
+			<!--banner_circle-->
+			<div class="circle">
+				<ul class="">
+					<li><input type="button" id="" value="" /></li>
+					<li><input type="button" id="" value="" /></li>
+					<li><input type="button" id="" value="" /></li>
+				</ul>
+			</div>
+			
+			<script type="text/javascript">
+				
+				
+				/*原点默认*/
+				$(".circle input:eq(0)").css("background-color","#ededed")
+				
+				$(".circle input").mouseenter(function(){
+					$(".circle input").css("background-color","white")
+					$(this).css("background-color","#ededed")
+					var banner = $(this).parent().index()
+					$(".banner").stop().animate({marginLeft:-960-1920*banner},500)
+					clearInterval(bannerstop)
+				}).mouseleave(function(){
+					bannerstop = setInterval(function(){
+					
+					if(time<2){
+						time = time + 1
+						
+					}else{
+						time =0
+					}
+					
+					$(".banner").stop().animate({marginLeft:-960-1920*time},500)
+					$(".circle").find("li").children().css("background-color","white")
+					$(".circle").find("li").eq(time).children().css("background-color","#ededed")
+					
+					
+				},3000)
+				})
+				
+				
+				
+				
+				
+			</script>
+				
+			<!--game_box-->
+			<div class="content_game">
+			<!--game1-->
+				<div class="game1">
+					<a href="">
+					<img src="img/game_img/021102294604.png"/>
+					<input type="button" name="" id="" value="可亚大冒险" />
+					</a>
+				</div>
+				
+				<div class="content_gamebox_small">
+					<div class="gamebox_top">
+						<div class="game2">
+							<a href="">
+							<img src="img/game_img/cefc1e178a82b901c8ed774f738da9773912ef0e.png"/>
+							<input type="button" name="" id="" value="燃烧战车" />
+							</a>
+						</div>
+						
+						<div class="game3">
+							<a href="">
+							<img src="img/game_img/t01f2534cb6602214c4.png"/>
+							<input type="button" name="" id="" value="梦幻泡泡岛" />
+							</a>
+						</div>
+					</div>
+				
+					<div class="game4">
+						<a href="">
+						<img src="img/game_img/timg (2).png"/>
+						<input type="button" name="" id="" value="卡通赛车" />
+						</a>
+					</div>
+				
+				
+				
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+		
+		
+			<!--new&download-->
+			<div class="content_service">
+				
+					
+				<!--动态-->
+				<div class="service_new">
+					<div class="service_title">
+						<ul>
+							<li><h1>最心动态</h1></li>
+							<li class="service_title_active"><a href="">新闻</a></li>
+							<li><img src="img/dot999.png"/></li>
+							<li><a href="">公告</a></li>
+						</ul>
+						<div class="service_arrow">
+							<a href=""><img src="img/arrow_right.png"/></a>
+						</div>
+					</div>
+					<ul class="service_main">
+						<li><a href="">[野菜部落] 五一大劳动 稀有饰品限时兑换</a> <p>2017.05.01</p></li>
+						<li><a href="">[燃烧战车Ⅱ] 经典乱斗重燃 打团集“上将”勋章</a> <p>2017.04.21</p></li>
+						<li><a href="">[卡通赛车] “无限加速模式”火爆上线  邀友送礼</a> <p>2017.04.20</p></li>
+					</ul>
+				</div>
+				<!--下载-->
+				<div class="service_download">
+					<div class="service_title">
+						<ul>
+							<li><h1>下载频道</h1></li>
+							<li class="service_title_active"><a href="">客户端</a></li>
+							<li><img src="img/dot999.png"/></li>
+							<li><a href="">补丁</a></li>
+						</ul>
+						<div class="service_arrow">
+							<a href=""><img src="img/arrow_right.png"/></a>
+						</div>
+					</div>
+					<ul class="service_main">
+						<li><a href="">[野菜部落] 当前版本：v1.2.2.0 </a> <p>2017.05.01</p></li>
+						<li><a href="">[燃烧战车Ⅱ] 当前版本：v2.1.2.0 </a> <p>2017.04.21</p></li>
+						<li><a href="">[可亚大冒险] 补丁版本：v1.4.3.0 </a> <p>2017.04.20</p></li>
+					</ul>
+				</div>
+			
+				
+			</div>
+			
+			
+			<!--join us-->
+				<div class="join_us about_padding_bottom">
+					<a href=""><img src="img/join us.png"/></a>
+				</div>
+				
+			<!--footer-->	
+				<div class="footer_bg">
+					<div class="footer">
+						<img src="img/footer_line.png"/>
+						<div class="footer_logo">
+							<img src="img/bi_logo.png"/>
+												</div>
+						
+						
+						<div class="footer_dot">
+								<span id="">
+								一群二笔
+							</span>
+
+						</div>
+						
+						<!--coypright-->
+						<ul>
+							<li>Copyright © 2013 - 2017 一群二笔工作室 Studio，YIQUNERBI Team, <a href="http://www.zcool.com.cn/u/15386430">@MMO</a></li>
+						</ul>
+					</div>
+					
+					
+				</div>
+				
+		</div>
+		
+	</body>
+</html>

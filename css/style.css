@@ -1,0 +1,240 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;border: 0;}
+			body {width: 100%;}
+			img{display: block;}
+			a{color: black;font-family: "微软雅黑";line-height: normal;}
+			input {outline: none;-webkit-appearance:none;border-radius: 0px;}
+			@font-face {font-family:"站酷快乐体2016修订版";src: url(../font/站酷快乐体2016修订版.ttf);}
+			@font-face {font-family:"GDH";src: url(../font/GDH.ttf);}
+			
+			 body{min-width:1000px;}
+			
+			/*nav*/
+			.nav_bg{height: 75px;background-color: white;width: 100%;}
+			.nav{width: 980px;overflow: hidden;margin: 0 auto;}
+
+			.logo {float: left;height: 75px;}
+			.logo_img{width: 52px;float: left;margin-right:5px;padding:10px 0px;}
+			.logo_img img{width: 100%;}
+			.logo ul{float: left;}
+			.logo span {float: left;font-family:"站酷快乐体2016修订版";padding-top: 22px;}
+			.logo h1{font-size: 20px;font-weight: normal;line-height: 28px;color: #333;display: block;cursor: pointer;}
+			.logo h2{font-size: 12px;font-weight:lighter;line-height: 10px;color: #333;display: block;cursor: pointer;}
+			
+			.nav_menu{float: right;line-height: 50px;}
+			.nav_menu li{float: left;margin: 12px 0px;margin-left:40px;top: 0;}
+			.nav_menu li:hover{border-bottom:4px #EDEDED solid;}
+			.nav_active{border-bottom: black 4px solid;}
+			
+			/*banner*/
+			.banner_bg{width: 100%;overflow: hidden;position: relative;height: 600px;}
+			.banner{width:1920px;position: absolute;left: 50%;margin-left:-960px;}
+			.banner_bg img{position: relative;}
+			.banner a{float: left;}
+			
+			
+			
+			
+			
+			/*circle*/
+			.circle{margin: 0 auto;width: 102px;top: 600px;overflow: hidden;}
+			.circle li{float: left;padding: 20px 10px;}
+			.circle input{height: 14px;width: 14px;border-radius: 50%;border: 2px solid #ededed;background-color: white;cursor: pointer;}
+			
+			
+			/*content_game*/
+			.content_bg{background-image: url(../img/content_bg.png);background-size: 100%;position: relative;background-repeat: no-repeat;}
+			
+			.content_game{width: 980px;margin: 0 auto;overflow: hidden;margin-bottom: 50px;}
+			
+			.game1 input,.game2 input,.game3 input,.game4 input{position: absolute;bottom: 0;color: white;font-family:"站酷快乐体2016修订版" ;font-size: 20px;font-weight: lighter;}
+			.game1 a,.game2 a,.game3 a,.game4 a{font-family:"GDH";}
+			.game1{float: left;position: relative;}
+			.game1 input{background-color: #00ff6a;height: 40px;width: 480px;cursor: auto;}
+			.content_gamebox_small{float: right;overflow: hidden;}
+			.game2{float: left;margin-right: 25px;position: relative;}
+			.game2 input{background-color: #ffbe00;height: 40px;width: 225px;position:absolute;bottom: 0;cursor: auto;}
+			.game3{float: right;position:relative;}
+			.game3 input{background-color: #b100ff;height: 40px;width: 225px;position: absolute;cursor: auto;}
+			.game4{float:left;position: relative;margin-top: 25px;}
+			.game4 input{background-color: #ff0040;height: 40px;width: 475px;position: absolute;cursor: auto;}
+			/*service*/
+			.content_service{width: 980px;overflow: hidden;margin: 0 auto;}
+			.service_new{float: left;}
+			.service_title{height: 40px;width: 480px;background-color: #f2f2f2;}
+			.service_title ul{float: left;}
+			.service_title li{float: left;line-height: 40px;}
+			.service_title h1{font-family: "站酷快乐体2016修订版";font-size: 22px;font-weight: lighter;color: #333333;margin:0 20px;cursor: default;}
+			.service_title a{font-family: "宋体";font-weight: lighter;color: #666;margin: 0 10px;font-size: 12px;}
+			.service_title li img{width: 1px;height: 12px;margin-top: 16px;}
+			.service_arrow{float: right;}
+			.service_arrow a{margin: 0}
+			.service_arrow img{margin:14px 0;margin-right: 20px;}
+			
+			.service_title_active a{font-weight:bold;}
+			
+			
+			.service_main{height:64px;width: 480px;background-color: white;padding: 8px 0;margin-bottom: 50px;}
+			.service_main li{margin-left: 20px;overflow: hidden;}
+			.service_main a,.service_main p{font-size: 12px;font-family:"宋体" ;	color: #999;float: left;line-height:12px;margin-top:8px;}
+			.service_main p{float: right;margin-right: 20px;}
+			
+			.service_download{float: right;}
+			
+			
+			/*join us*/
+			.join_us{width: 980px;margin: 0 auto;}
+			.join_us img{width: 100%;}
+			
+			/*footer*/
+			.footer_bg{background-color: black;position: relative;overflow: hidden;}
+			.footer{width: 980px;margin: 0 auto;margin-top: 30px;;position: relative;}
+			.footer img{position: relative;margin: 0 auto;top: -28px;}
+			
+			.footer_logo{float: left;width: 80px;margin-left: 30px;margin-bottom: 30px;}
+			.footer_logo img{position: relative;width: 100%;top: 0;left: 0;}
+			
+			.footer_dot{float: left;height: 40px;background-image: url(img/dot000.png);margin: 0 20px;margin-top: 20px;background-repeat: repeat-y;}
+			.footer_dot span{color: white;font-size: 30px;font-family:"站酷快乐体2016修订版";font-weight: lighter;line-height: 40px;padding-left: 20px;cursor: default;}
+			
+			.footer ul{float: right;}
+			.footer li{color: white;font-size: 14px;font-family: "微软雅黑";line-height: 80px;font-weight: lighter;cursor: default;}
+			.footer a{color: white;font-size: 14px;font-family: "微软雅黑";line-height: 80px;font-weight: lighter;}
+
+			
+			/*about*/
+			
+			/*about_banner*/	
+			.banner_about{position: relative;margin: 0 auto;}
+			.banner_about img{width: 100%;}
+			.banner_about h1{text-align: center;color: white;font-family:"站酷快乐体2016修订版" ;cursor: default;
+			position: absolute;top:45%;width: 400px;left:50%;font-size: 60px;font-weight: lighter;
+			margin-left: -205px;border-left: 5px white solid;line-height: 38px;border-right: 5px white solid ;}
+			
+			/*studio*/
+			.about_bg{padding:25px 0;margin: 0 auto;width: 980px;overflow: hidden;}
+			.about_padding_top{padding-top: 50px;}
+			.about_padding_bottom{padding-bottom: 100px;}
+			.about{width: 100%;}
+			.about h1{font-family: "微软雅黑";font-size: 30px;font-weight: normal;text-align: center;color: #333333;line-height: 35px;cursor: default;}
+			.about h2{font-family: "微软雅黑";font-size: 14px;font-weight: normal;text-align: center;color: #666666;margin-top: 6px;line-height: 14px;cursor: default;}
+			.about div{width: 240px;background-image:url(../img/about/dot666.png);height: 1px;margin: 10px auto;}
+			.about p{line-height: 24px;font-family: "宋体";font-size: 16px;font-weight: lighter;color: #666;cursor: default;}
+			
+			.about_culture span{background-color: black;color: white;display: block;width:168px;float: left;margin-right: 35px;
+			border-radius: 50%;height:168px;text-align: center;line-height: 168px;font-family: "微软雅黑";font-size: 30px;font-weight: normal;cursor: default;}
+			
+			
+			.Development {padding-top:121px;position: relative;}
+			.Development span{width: 880px;margin: 0 auto;height: 5px;background-color: black;display: block;}
+			.Development span li{height: 10px;width: 10px;background-color: black;float: left;border-radius: 50%;
+			position: relative;top: -3px;margin-right:-webkit-calc(100% / 5 - 10px);left: -4px;}
+			
+			.Development_active ul{position: absolute;}
+			.Development_active li{float: left;position:relative;top:-128px;margin-right:76px;cursor: pointer;}
+			.Development_active li span{height: 0;line-height: 100px;width: 100px;text-align: center;position: relative;
+			font-size: 20px;font-family: "微软雅黑";font-weight: normal;display: block;}
+			
+			
+			
+			
+
+			
+
+
+			/*games*/
+			.download{width: 100%;}
+			.download h1{font-family: "微软雅黑";font-size: 30px;font-weight: normal;text-align: center;color: #333333;line-height: 35px;cursor: default;}
+			.download h2{font-family: "微软雅黑";font-size: 14px;font-weight: normal;text-align: center;color: #666666;margin-top: 6px;line-height: 14px;cursor: default;}
+			.download div{width: 100%;background-image:url(../img/about/dot666.png);height: 1px;margin: 10px auto;}
+			
+			.download ul{overflow: hidden;width:589px;margin: 0 auto;}
+			.download ul li{float: left;}
+
+			.download ul li input{width: 107px;padding-left: 23px;line-height: 40px;background-repeat: no-repeat;
+			background-position:left;font-size: 20px;font-family: "微软雅黑";font-weight: normal;background-color: transparent;}
+			.download ul li span{height: 20px;width: 1px;background-image: url(../img/about/dot666-1.png);display: block;margin:0 187px;margin-top: 10px;}
+			
+			.game_pc{background-image: url(../img/games/pc.png);color: #333333;}
+			.game_mobile{background-image:url(../img/games/mobile666.png);color: #666666;}
+			
+			.download h6{height: 1px;width: 50%;background-color: #333;position: relative;bottom: -11px;left: 0;}
+			
+			.game_pc_1{overflow: hidden;}
+			.game_mobile_1{display: none;overflow: hidden;cursor:default;}
+			.download_games{width: 980px;margin: 0 auto;margin-top: 25px;padding-bottom: 30px;background-image: url(../img/about/dot666.png);
+			background-repeat:  repeat-x;background-position: bottom;margin-bottom:5px;}
+			.games_products{width: 100%;overflow: hidden;}
+			.games_products a{width: 250px;display: block;float: left;}
+			.games_title{width: 700px;float: right;padding: 40px 0;}
+			.games_title h1{cursor: pointer;}
+			.games_title h2{cursor:default;}
+			
+			.games_products h1{font-size: 30px;font-family: "微软雅黑";font-weight: normal;margin-bottom: 18px;color: #1a1a1a;line-height: 40px;}
+			.games_products h2{font-size: 18px;font-family: "微软雅黑";font-weight: normal;margin-bottom: 25px;color: #666;}
+			.games_button{overflow: hidden;}
+			.games_button li{float: left;margin-right: 20px;}
+			.games_button input{width: 138px;height: 38px;background-color: #e6e6e6;border: 1px solid #d9d9d9;font-family: "微软雅黑";
+			font-weight: normal;font-size: 18px;color: #666;cursor:pointer;}
+			
+			.games_number{width: 980px;margin: 0 auto;margin-top: 45px;margin-bottom: 100px;}
+			.games_number ul{overflow: hidden; position:relative;left: 50%;margin-left: -60px;}
+			.games_number li{float: left;margin: 0 5px;}
+			.games_number input{width:50px;height: 30px;cursor: pointer;background-color:transparent;
+			color: #666;font-weight:lighter;font-size: 18px;font-family: "微软雅黑";}
+			.games_button input:active{background-color:#d9d9d9;}
+			
+			
+			
+			
+			/*news*/
+			.news{width: 100%;}
+			.news h1{font-family: "微软雅黑";font-size: 30px;font-weight: normal;text-align: center;color: #333333;line-height: 35px;cursor: default;}
+			.news h2{font-family: "微软雅黑";font-size: 14px;font-weight: normal;text-align: center;color: #666666;margin-top: 6px;line-height: 14px;cursor: default;}
+			.news h3{width:240px;background-image:url(../img/about/dot666.png);height: 1px;margin: 0 auto;margin-top: 10px;margin-bottom: 15px;}
+			
+			
+			.news_search {overflow:hidden;width: 600px;margin: 0 auto;position: relative;}
+			.news_search input{float: left;font-family: "站酷快乐体2016修订版";}
+			.news_input{width: 588px;height: 38px;background-color: transparent;border: 1px solid #ccc;margin: 0 auto;
+			display: block;padding-left: 10px;line-height: 20px;font-family: "微软雅黑";font-weight: normal;color: #666;font-size: 20px;}
+			.news_button{width: 80px;height: 40px;background-color: black;display: block;color: white;font;
+			font-family: "微软雅黑";font-weight: normal;font-size: 20px;position: absolute;right: 0;cursor: pointer;}
+			
+			
+			.news_content li{overflow: hidden;}
+			.news_content a,.news_content p{font-family: "微软雅黑";font-size: 20px;line-height: 20px;margin-bottom: 25px;}
+			.news_content a{float:left;color: #333;font-weight:lighter;}
+			.news_content p{float:right;color: #999;font-weight: lighter;cursor: default;}
+			
+			.news_number {width: 980px;margin: 0 auto;overflow: hidden;margin-bottom: 100px;}
+			.news_number div{display: inline;}
+			.news_number ul{overflow: hidden;margin: 0 auto;text-align: center;}
+			.news_number li{margin: 0 5px;display:inline;cursor: default;}
+			.news_number a{line-height: 30px;color: #666;font-family: "微软雅黑";font-size: 18px;font-weight:lighter;cursor: pointer;}
+			.news_number input{width:50px;height: 30px;cursor: pointer;background-color:transparent;
+			color: #666;font-family: "微软雅黑";font-size: 18px;font-weight:lighter;}
+			.news_number input:active{background-color:#d9d9d9;}
+			.number1{cursor: default;}
+
+
+
+			/*join*/
+			.join_bg{margin: 0 auto;width: 980px;overflow: hidden;padding-bottom: 100px;}
+			.join_left,.join_right{float: left;}
+			
+			.join_explain1,.join_explain2{height: 160px;width: 240px;background-color: white;padding: 20px 30px;margin-bottom: 10px;position: relative;margin-right: 20px;cursor: default;}
+			.join_explain1 span,.join_explain2 span{display: block;border-radius: 50%;height: 20px;width: 20px;background-color: black;position: absolute;left:28px;}
+			.join_explain1 h1,.join_explain2 h1{font-family: "微软雅黑";font-size: 20px;font-weight: normal;
+			margin: 0;color: #333;margin-bottom: 30px;line-height: 20px;
+			padding-left: 20px;}
+			.join_explain1 p,.join_explain2 p{font-family: "微软雅黑";font-size: 18px;font-weight: normal;color: #333;
+			line-height: 24px;padding-left: 20px;width:200px;}
+			
+			.join_right li{height:160px;width:580px;padding:20px 40px;background-color: white;margin-bottom: 10px;cursor: default;}
+			
+			.join_right h1{font-family: "微软雅黑";font-size: 20px;font-weight: normal;
+			margin: 0;color: #333;margin-bottom: 30px;line-height: 20px;position: relative;left: -10px;}
+			.join_right p{font-family: "微软雅黑";font-size: 18px;font-weight: lighter;color: #333;
+			line-height: 24px;}
+
+
